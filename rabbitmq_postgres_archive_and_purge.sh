@@ -2,7 +2,7 @@
 
 # Script to check that RabbitMQ queues have drained before running postgres archive and purge.
 # Single Node & High Availability Cluster RabbitMQ compatible.
-# Example  command --> ./rabbitmq_postgres_archive_and_purge.sh 192.168.100.200 /postgres-backup-logs/2024-09-27.log 24 admin:password /
+# Example  command --> ./rabbitmq_postgres_archive_and_purge.sh 192.168.100.200 /postgres-backup-logs/2024-09-27.log 24 admin:password \
 # "192.168.0.10, 192.168.1.25, 192.168.2.50" 3 /rabbitmq-postgres-archive-and-purge-logs/2024-09-27.log /rabbitmq-node-message-queue-logs/2024-09-27.log 7 10m   
 
 DATE=`date +%Y-%m-%d`                     # todays date  
